@@ -1,0 +1,30 @@
+{
+    "name": "codicastudio/setting-manager",
+    "description": "A random Codica Studio package.",
+    "homepage": "https://github.com/codicastudio/setting-manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "codicastudio/setting": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "codicastudio\\SettingManager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "codicastudio\\SettingManager\\Providers\\SettingManagerServiceProvider"
+            ],
+            "aliases": []
+        }
+    }
+}

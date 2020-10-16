@@ -1,0 +1,13 @@
+{
+    "name": "SettingManager",
+    "alias": "SettingManager",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "codicastudio\\SettingManager\\Providers\\SettingManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
